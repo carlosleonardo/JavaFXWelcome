@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/05/2016, 13:53:50
+    Author     : 86132113568
+*/
+
+.root {
+    -fx-background-image: url("background.jpg");
+}
+
+.label {
+    -fx-font-size: 12px;
+    -fx-fill: #333333;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(255,255,255,0.5), 0,0,0,1);
+}
