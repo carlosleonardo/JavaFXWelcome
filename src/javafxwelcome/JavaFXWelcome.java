@@ -44,7 +44,7 @@ public class JavaFXWelcome extends Application {
         grid.setPadding(new Insets(25, 25, 25, 25));
 
         // Os controles
-        Label titulo = new Label("Welcome");
+        final Text titulo = new Text("Welcome");
         titulo.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
         grid.add(titulo, 0, 0, 2, 1);
 
@@ -70,12 +70,14 @@ public class JavaFXWelcome extends Application {
 
         final Text lblMensagem = new Text();
         grid.add(lblMensagem, 1, 6);
+        
+        titulo.setId("welcome-text");
+        
 
         btnLogin.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent t) {
-                lblMensagem.setFill(Color.FIREBRICK);
-                lblMensagem.setText("Sign in button pressed");
+                lblMensagem.setId("action-target");
             }
         });
 
