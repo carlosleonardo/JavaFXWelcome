@@ -1,4 +1,4 @@
 # JavaFXWelcome
 Aplicativo JavaFX de Exemplo
 
-Este aplicativo se baseia no tutorial de http://docs.oracle.com/javafx/2/get_started.
+Este aplicativo se baseia no tutorial de http://docs.oracle.com/javafx/2/get_started/jfxpub-get_started.htm.
